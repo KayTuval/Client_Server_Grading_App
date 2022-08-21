@@ -1,0 +1,36 @@
+
+running example:
+
+compile:
+make
+
+first terminal:
+./GradeServer 12345
+
+second terminal:
+./GradeClient localhost 12345
+> Login 123456789 123456
+Welcome Student 123456789
+> ReadGrade
+0
+> UpdateGrade 123456789 98
+Action not allowed
+> Logout
+Good bye 123456789
+> Hi
+Wrong Input
+> ReadGrade 123456789
+Not logged in
+> Login 111111111 111111
+Welcome TA 111111111
+> fd
+Wrong Input
+> UpdateGrade 123456789 90
+> ReadGrade 123456789
+90
+> GradeList
+987654321: 0
+123456789: 90
+121212121: 0
+> Exit
+Good bye 111111111
